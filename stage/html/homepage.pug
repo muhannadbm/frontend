@@ -6,9 +6,17 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title HomePage
         link(rel="stylesheet", href="css/main.css")
+        link(rel="stylesheet", href="css/fontawesome.css")
+        link(rel="stylesheet", href="css/brand.css")
+        link(rel="stylesheet", href="css/solid.css")
+        script(src="all.js")
         include pug/layout/style
     body
         .page.home-page
-        include pug/layout/sidebar
-        .content-area Content 
+         include pug/layout/sidebar
+         .content-area 
+            include pug/layout/header
+            .content
             h1 #{pageTitle} 
+
+include pug/layout/scripts
