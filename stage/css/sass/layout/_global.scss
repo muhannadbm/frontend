@@ -9,9 +9,10 @@
 }
 .content-area{ 
     width: calc(100% - 250px);
-    min-height: 100%;
+    min-height: 100vh;
     transition: 0.3s;
     float: right;
+    background-color: #f0f0f0;
     will-change: width;
     &.no-sidebar{
         width: 100%;

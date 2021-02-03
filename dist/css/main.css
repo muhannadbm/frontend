@@ -1,4 +1,4 @@
-*{-webkit-box-sizing:border-box !important;box-sizing:border-box !important;margin:0 !important;padding:0 !important}.page{min-height:100vh}.content-area{width:calc(100% - 250px);min-height:100%;-webkit-transition:0.3s;transition:0.3s;float:right;will-change:width}.content-area.no-sidebar{width:100%}.sidebar{width:250px;position:fixed;top:0;left:0;height:100%;background-color:gray;padding:15px;-webkit-transition:0.3s;transition:0.3s}.sidebar.no-sidebar{left:-250px}.header .toggle-sidebar{cursor:pointer}
+*{-webkit-box-sizing:border-box !important;box-sizing:border-box !important;margin:0 !important;padding:0 !important}.page{min-height:100vh}.content-area{width:calc(100% - 250px);min-height:100vh;-webkit-transition:0.3s;transition:0.3s;float:right;background-color:#f0f0f0;will-change:width}.content-area.no-sidebar{width:100%}.sidebar{width:250px;position:fixed;top:0;left:0;height:100%;color:#929ba8;background-color:#2c3e4e;padding:15px;-webkit-transition:0.3s;transition:0.3s}.sidebar.no-sidebar{left:-250px}.header{background-color:white}.header .toggle-sidebar{cursor:pointer}
 
 
 /*# sourceMappingURL=main.css.map */
